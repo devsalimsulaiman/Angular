@@ -1,0 +1,20 @@
+<main>
+  <a [routerLink]="['/']">
+    <header class="brand-name">
+      <img style="height: 5vh;" class="brand-logo" src="../assets/house.png" alt="logo" aria-hidden="true">
+    </header>
+  </a>
+  
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+        <p>By </p>
+        <a href="https://github.com/devsalimsulaiman" target="_blank">
+            <span class="footer-name">@devsalimsulaiman</span>
+        </a>
+    </div>
+</footer>
+</main>
